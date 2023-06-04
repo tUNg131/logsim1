@@ -247,7 +247,7 @@ class Devices:
         self.add_output(device_id, output_id=None)
 
         for input_number in range(1, no_of_inputs + 1):
-            input_name = "".join(["I", str(input_number)])
+            input_name = "".join(["i", str(input_number)])
             [input_id] = self.names.lookup([input_name])
             self.add_input(device_id, input_id)
 
