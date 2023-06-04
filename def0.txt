@@ -1,0 +1,6 @@
+and k(2)
+sw sw1(1)
+clk clk1(1)
+sw1 =  k.I1
+clk1 = k.I2
+monitor k
